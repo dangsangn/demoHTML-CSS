@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demo HTML CSS</title>
+  <link rel="stylesheet" href="./assets/font/font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./assets/css/grid.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+  <header>
+    <div class="grid wide">
+      <div class="row align-center">
+        <div class="col l-2 m-4 c-4">
+          <div class="header__logo">
+            <a href="#" class="header__logo__link">
+              <img class="header__logo__link__image" src="./assets/images/logo-sun@2x.png" alt="logoSun">
+            </a>
+          </div>
+        </div>
+        <div class="col l-9 m-6 c-6">
+          <nav class="navbar">
+            <ul class="navbar__menu">
+              <li class="navbar__item link-active">
+                <a class="navbar__item__link " href="#">Trang chủ</a>
+              </li>
+              <li class="navbar__item">
+                <a class="navbar__item__link" href="#">Về chúng tôi</a>
+              </li>
+              <li class="navbar__item">
+                <a class="navbar__item__link" href="#">Dự án</a>
+              </li>
+              <li class="navbar__item">
+                <a class="navbar__item__link" href="#">Cơ hội nghề nghiệp</a>
+              </li>
+              <li class="navbar__item">
+                <a class="navbar__item__link" href="#">Môi trường làm việc</a>
+              </li>
+              <li class="navbar__item">
+                <a class="navbar__item__link" href="#">Tin tức</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header__bars">
+            <button class="btn btn--bars"><i class="fa fa-bars" aria-hidden="true"></i></button>
+            <ul class="header__bars__list">
+              <li class="header__bars__list__item link-bars-active"><a href="">Trang chủ</a></li>
+              <li class="header__bars__list__item"><a href="">Về chúng tôi</a></li>
+              <li class="header__bars__list__item"><a href="">Cơ hội nghề nghiệp</a></li>
+              <li class="header__bars__list__item"><a href="">Môi trường làm việc</a></li>
+              <li class="header__bars__list__item"><a href="">Tin tức</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col l-1 m-2 c-2">
+          <div class="header__language">
+            <button class="btn btn--language">VI</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="slide-bar">
+      <div class="grid">
+        <video class="slide-bar__video" autoplay muted>
+          <source src="./assets/videos/mv-pc.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
+
+    <div class="grid wide">
+      <section class="intro-business">
+        <h2 class="intro-business__header">Lĩnh vực kinh doanh</h2>
+        <div class="intro-business__content">
+          <p class="intro-business__content__text">
+            Là một Digital Creative Studio, Sun* luôn đề cao tinh thần làm chủ sản phẩm, tư duy sáng tạo trong mỗi dự
+            án để mang đến
+            những trải nghiệm "<b>Awesome</b>" nhất cho end-user.<br><br>
+            Với hai dòng dịch vụ là "<b>Creative & Engineering</b>" và "<b>Talent Platform</b>", Sun* đã và đang từng
+            bước cùng công
+            nghệ tạo ra
+            những giá trị tốt đẹp cho xã hội.
+          </p>
+          <div class="intro-business__content__image">
+            <img src="./assets/images/intro-business.png" alt="Lĩnh vực kinh doanh">
+          </div>
+        </div>
+
+        <div class="intro-business__extend">
+          <div class="row">
+            <div class="col l-6 m-6 c-12">
+              <div class="box">
+                <p class="box__title">
+                  Digital Creative Studio
+                </p>
+                <h3 class="box__header">
+                  Creative<br>
+                  & Engineering
+                </h3>
+                <p class="box__description">
+                  Đội ngũ nhân lực dồi dào chuyên về công nghệ, thiết kế và kinh doanh.
+                </p>
+                <button class="btn btn--has-arrow">Tìm hiểu thêm <i class="fa fa-arrow-right"
+                    aria-hidden="true"></i></button>
+              </div>
+            </div>
+            <div class="col l-6 m-6 c-12">
+              <div class="box box--bg-white">
+                <p class="box__title box--bg-white__title">
+                  Digital Creative Studio
+                </p>
+                <h3 class="box__header">
+                  Talent<br>
+                  Platform
+                </h3>
+                <p class="box__description">
+                  Các giải pháp nguồn nhân lực hỗ trợ tăng trưởng kinh doanh bền vững.
+                </p>
+                <button class="btn btn--has-arrow btn--bg-white ">Tìm hiểu thêm <i class="fa fa-arrow-right"
+                    aria-hidden="true"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="project-us">
+        <h2 class="project-us__header">
+          Dự án của chúng tôi
+        </h2>
+        <div class="project-us__content">
+          <div class="row">
+            <div class="col l-6 m-6 c-12">
+              <div class="project-us__partner">
+                <span class="project-us__partner__quantity">200</span>
+                <span class="project-us__partner__more">
+                  <span>++</span><br>
+                  <span>Đối tác</span>
+                </span>
+              </div>
+              <div class="project-us__service">
+                <span class="project-us__service__quantity">300</span>
+                <span class="project-us__service__more">
+                  <span>++</span><br>
+                  <span>Dịch vụ được hỗ trợ</span>
+                </span>
+              </div>
+              <button class="btn btn--has-arrow btn--bg-white btn--project-us">Xem tất
+                cả dự án <i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+            </div>
+            <div class="col l-6 m-6 c-12">
+              <div class="box box--slide">
+                <div class="box--slide__content">
+                  <p class="box__title box--slide__title">
+                    Digital Creative Studio
+                  </p>
+                  <h3 class="box__header box--slide__header">
+                    Talent Platform
+                  </h3>
+                  <p class="box__description box--slide__description">
+                    Các giải pháp nguồn nhân lực hỗ trợ tăng trưởng kinh doanh bền vững.
+                  </p>
+                  <a href="http://1" class="box__link">Tìm hiểu thêm <i class="fa fa-arrow-right"
+                      aria-hidden="true"></i></a>
+                </div>
+              </div>
+              <div class="container-action-btn">
+                <span class="btn--next"><i class="fa fa-chevron-left" aria-hidden="true"></i></span>
+                <span class="btn--back"><i class="fa fa-chevron-right" aria-hidden="true"></i></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="chance-job">
+        <div class="box box--chance-job">
+          <div class="box--chance-job__content">
+            <p class="box__title box--chance-job__content__title">
+              Sun Asterisk
+            </p>
+            <h2 class="box__special-header">
+              Cơ hội nghề nghiệp
+            </h2>
+            <h3 class="box__header box--chance-job__content__header">
+              Join us & MAKE AWESOME THINGS THAT MATTER.
+            </h3>
+            <p class="box__description box--chance-job__content__description">
+              Sun* luôn tìm kiếm những con người đam mê thử thách để tạo nên những giá trị "Awesome".<br>
+              Cùng trở thành một phần của Sun* ngay hôm nay.
+            </p>
+            <button class="btn btn--has-arrow btn--width-sm">Gia nhập đội ngũ Sun<sup>*</sup> <i
+                class="fa fa-arrow-right" aria-hidden="true"></i></button>
+          </div>
+        </div>
+      </section>
+
+      <section class="environment-working">
+        <div class="row">
+          <div class="col l-6 m-6 c-12">
+            <div class="environment-working__content">
+              <h2 class="environment-working__content__header">
+                Môi trường làm việc
+              </h2>
+              <ul class="environment-working__content__list">
+                <li class="environment-working__content__list__item"><span><i class="fa fa-check"
+                      aria-hidden="true"></i></span>Môi trường sáng tạo - Tôn trọng sự
+                  khác
+                  biệt</li>
+                <li class="environment-working__content__list__item"><span><i class="fa fa-check"
+                      aria-hidden="true"></i></span>Trao quyền làm chủ</li>
+                <li class="environment-working__content__list__item"><span><i class="fa fa-check"
+                      aria-hidden="true"></i></span>Tập trung hỗ trợ sự phát triển cá
+                  nhân
+                </li>
+                <li class="environment-working__content__list__item"><span><i class="fa fa-check"
+                      aria-hidden="true"></i></span>Sôi nổi các hoạt động phong trào
+                  học
+                  tập, giao lưu văn hóa</li>
+                <li class="environment-working__content__list__item"><span><i class="fa fa-check"
+                      aria-hidden="true"></i></span>Chế độ chăm sóc đặc biệt cho phụ nữ
+                </li>
+                <li class="environment-working__content__list__item"><span><i class="fa fa-check"
+                      aria-hidden="true"></i></span>Chế độ đãi ngộ chung đầy đủ, hấp
+                  dẫn
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col l-6 m-6 c-12">
+            <div class="environment-working__image">
+              <img src="./assets/images/career-bg.jpg" alt="image environment">
+              <div class="environment-working__image__btn">
+                <button class="btn btn--has-arrow">Xem chi tiết<i class="fa fa-arrow-right"
+                    aria-hidden="true"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cultural-event">
+        <h2 class="cultural-event__header">
+          Văn hóa - Sự kiện
+        </h2>
+        <div class="row">
+          <div class="col l-4 m-4 c-12">
+            <div class="box box--cultural-event">
+              <div class="box__image">
+                <img src="./assets/images/career-bg.jpg" alt="box image">
+              </div>
+              <h3 class="box__header box--cultural-event__header">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, sed.
+              </h3>
+              <p class="box__description box--cultural-event__description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi officiis perferendis saepe
+                perspiciatis odit voluptatem. Ducimus enim nesciunt expedita, tempore, officia nostrum, nam iure
+                omnis
+                cupiditate quidem iste impedit eum.
+              </p>
+              <a href="" class="box__link">Xem chi tiết <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+          </div>
+          <div class="col l-4 m-4 c-0">
+            <div class="box box--cultural-event">
+              <div class="box__image">
+                <img src="./assets/images/career-bg.jpg" alt="box image">
+              </div>
+              <h3 class="box__header box--cultural-event__header">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, sed.
+              </h3>
+              <p class="box__description box--cultural-event__description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi officiis perferendis saepe
+                perspiciatis odit voluptatem. Ducimus enim nesciunt expedita, tempore, officia nostrum, nam iure
+                omnis
+                cupiditate quidem iste impedit eum.
+              </p>
+              <a href="" class="box__link">Xem chi tiết <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+          </div>
+          <div class="col l-4 m-4 c-0">
+            <div class="box box--cultural-event">
+              <div class="box__image">
+                <img src="./assets/images/career-bg.jpg" alt="box image">
+              </div>
+              <h3 class="box__header box--cultural-event__header">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, sed.
+              </h3>
+              <p class="box__description box--cultural-event__description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi officiis perferendis saepe
+                perspiciatis odit voluptatem. Ducimus enim nesciunt expedita, tempore, officia nostrum, nam iure
+                omnis
+                cupiditate quidem iste impedit eum.
+              </p>
+              <a href="" class="box__link">Xem chi tiết <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="cultural-event__button">
+          <button class="btn btn--has-arrow btn--bg-white">Xem nhiều tin hơn <i class="fa fa-arrow-right"
+              aria-hidden="true"></i></button>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="grid wide">
+      <section class="footer__info">
+        <div class="row clear-margin">
+          <div class="col l-3 m-3 c-12">
+            <div class="footer__image footer-module">
+              <img src="./assets/images/logo-sun@2x.png" alt="logo sun">
+            </div>
+          </div>
+          <div class="col l-9 m-9 c-12">
+            <div class="">
+              <div class="row ">
+                <div class="col l-4 m-4 c-12">
+                  <div class="footer-module">
+                    <h3 class="footer-module__header">Chúng tôi là ai?</h3>
+                    <ul class="footer-module__list">
+                      <li class="footer-module__list__item"><a href="http://">Tầm nhìn, sứ mệnh</a></li>
+                      <li class="footer-module__list__item"><a href="#">Giá trị cốt lõi</a></li>
+                      <li class="footer-module__list__item"><a href="#">Ý nghĩa tên Sun<sup>*</sup></a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col l-4 m-4 c-12">
+                  <div class="footer-module">
+                    <h3 class="footer-module__header">Chúng tôi làm gì?</h3>
+                    <ul class="footer-module__list">
+                      <li class="footer-module__list__item"><a href="http://">Creative & Engineering</a></li>
+                      <li class="footer-module__list__item"><a href="#">Talent Platform</a></li>
+                      <li class="footer-module__list__item"><a href="#">Dự án của chúng tôi<sup>*</sup></a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col l-4 m-4 c-12">
+                  <div class="footer-module">
+                    <h3 class="footer-module__header">Cập nhật tin tức</h3>
+                    <ul class="footer-module__list">
+                      <li class="footer-module__list__item"><a href="http://">Văn hóa - Sự kiện</a></li>
+                      <li class="footer-module__list__item"><a href="#">Tuyển dụng</a></li>
+                      <li class="footer-module__list__item"><a href="#">Chính sách phúc lợi<sup>*</sup></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="row">
+                <div class="col l-4 m-4 c-12">
+                  <div class="footer-module">
+                    <h3 class="footer-module__header">Liên hệ</h3>
+                    <ul class="footer-module__list">
+                      <li class="footer-module__list__item"><a href="http://">SĐT: 84-24-3795-5417</a></li>
+                      <li class="footer-module__list__item"><a href="#">Email: hr@sun-asterisk.com</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col l-8 m-8 c-12">
+                  <div class="footer-module">
+                    <h3 class="footer-module__header">Văn phòng</h3>
+                    <ul class="footer-module__list">
+                      <li class="footer-module__list__item">Tầng 13, tòa Keangnam Landmark 72, đường Phạm Hùng, quận Nam
+                        Từ Liêm, Tp. Hà Nội</li>
+                      <li class="footer-module__list__item">Tầng 11, tòa Handico, đường Phạm Hùng, quận Nam Từ Liêm, Tp.
+                        Hà Nội</li>
+                      <li class="footer-module__list__item">Tầng 4, tòa FHome Building, số 16 Lý Thường Kiệt, quận Hải
+                        Châu, Tp. Đà Nẵng</li>
+                      <li class="footer-module__list__item">Tầng 8, tòa Nice Building, số 467 đường Điện Biên Phủ,
+                        phường
+                        25, quận Bình Thạnh, Tp. Hồ Chí
+                        Minh</li>
+                      <li class="footer-module__list__item">Văn phòng Tokyo - Văn phòng Cebu - Văn phòng Phnom Penh</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <section class="footer__copyright">
+      <div class="grid wide">
+        <div class="row align-center">
+          <div class="col l-9 m-8 c-12">
+            <div class="footer__copyright__info">
+              <img src="./assets/images/bear-footer.png" alt="beer footer">
+              <span>@ 2021 Sun-asterisk. All rights reserved.</span>
+            </div>
+          </div>
+          <div class="col l-3 m-4 c-12">
+            <div class="container-link-social">
+              <a class="link-social" href="http://"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+              <a class="link-social" href="http://"><i class="fa fa-facebook" aria-hidden="true"></i></i></a>
+              <a class="link-social" href="http://"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </footer>
+</body>
+
+</html>
